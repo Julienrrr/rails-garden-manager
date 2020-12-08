@@ -1,0 +1,28 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: transparent;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.logo {
+  img {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+  }
+  border-radius: 50%;
+  background: #1EDD88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:hover {
+  background: #1BCB7F;
+  transition: background 0.3s ease;
+}

@@ -1,0 +1,14 @@
+a {
+  text-decoration: none !important;
+  color: black;
+  &:hover {
+    color: black;
+  }
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+ .pt-30 {
+  padding-top: 30px;
+ }
